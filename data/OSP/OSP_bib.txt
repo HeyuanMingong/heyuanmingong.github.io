@@ -1,0 +1,12 @@
+@ARTICLE{wang2019osp, 
+author={Z. {Wang} and H. {Li} and C. {Chen}}, 
+journal={IEEE Transactions on Cybernetics}, 
+title={Reinforcement Learning-Based Optimal Sensor Placement for Spatiotemporal Modeling}, 
+year={2019}, 
+volume={}, 
+number={}, 
+pages={1-11}, 
+keywords={Spatiotemporal phenomena;Optimization;Linear programming;Modeling;Mathematical model;Nonlinear dynamical systems;Distributed parameter systems (DPSs);Karhunen-Loève decomposition (KLD);optimal sensor placement;reinforcement learning (RL);spatiotemporal modeling}, 
+doi={10.1109/TCYB.2019.2901897}, 
+ISSN={2168-2267}, 
+month={},}

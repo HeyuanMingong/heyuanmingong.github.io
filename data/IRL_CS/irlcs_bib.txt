@@ -1,0 +1,11 @@
+@article{wang2019tnnls,
+  title={Incremental reinforcement learning in continuous spaces via policy relaxation and importance weighting},
+  author={Wang, Zhi and Li, Han-Xiong and Chen, Chunlin},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  doi={10.1109/TNNLS.2019.2927320},
+  volume={},
+  number={},
+  pages={},
+  year={2019},
+  note={to be published}
+}

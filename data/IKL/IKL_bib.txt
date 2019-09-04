@@ -1,0 +1,7 @@
+@article{wang2018incremental,
+  title={Incremental Spatiotemporal Learning for Online Modeling of Distributed Parameter Systems},
+  author={Wang, Zhi and Li, Han-Xiong},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+  year={2018},
+  publisher={IEEE}
+}

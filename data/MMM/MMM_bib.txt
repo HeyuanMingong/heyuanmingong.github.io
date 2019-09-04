@@ -1,0 +1,11 @@
+@article{wang2019dissimilarity, 
+author={Z. {Wang} and H. {Li}}, 
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems}, 
+title={Dissimilarity Analysis-Based Multimode Modeling for Complex Distributed Parameter Systems}, 
+year={2019}, 
+volume={}, 
+number={}, 
+pages={1-9}, 
+doi={10.1109/TSMC.2019.2916939}, 
+ISSN={2168-2216}, 
+month={},}

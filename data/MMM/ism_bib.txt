@@ -1,0 +1,6 @@
+@inproceedings{wang2019incremental, 
+title = {Incremental learning based subspace modeling for distributed parameter systems},
+author={Zhi {Wang} and Han-Xiong {Li}}, 
+booktitle={Proceedings of the International Joint Conference on Neural Networks},
+year={2019}
+}
