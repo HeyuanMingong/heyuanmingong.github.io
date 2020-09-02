@@ -1,7 +1,0 @@
-@inproceedings{wang2016novel,
-  title={A novel incremental learning scheme for reinforcement learning in dynamic environments},
-  author={Wang, Zhi and Chen, Chunlin and Li, Han-Xiong and Dong, Daoyi and Tarn, Tzyh-Jong},
-  booktitle={Proceedings of the World Congress on Intelligent Control and Automation (WCICA)},
-  pages={2426--2431},
-  year={2016}
-}

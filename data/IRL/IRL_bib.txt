@@ -1,9 +1,0 @@
-@article{wang2019tmechl,
-  title={Incremental reinforcement learning with prioritized sweeping for dynamic environments},
-  author={Wang, Zhi and Chen, Chunlin and Li, Han-Xiong and Dong, Daoyi and Tarn, Tzyh-Jong},
-  journal={IEEE/ASME Transactions on Mechatronics},
-  volume={24},
-  number={2},
-  pages={621--632},
-  year={2019}
-}

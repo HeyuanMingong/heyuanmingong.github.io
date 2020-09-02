@@ -1,3 +1,0 @@
-Zhi Wang received the Ph.D. degree in machine learning and systems engineering from Department of Systems Engineering and Engineering Management, City University of Hong Kong, Hong Kong, China, in 2019, and the B.E. degree in automation from Department of Control and Systems Engineering, Nanjing University, Nanjing, China, in 2015. He has the visiting position at the School of Engineering and Information Technology, University of New South Wales, Canberra, Australia.
-
-He is currently an Assistant Professor with the Department of Control and Systems Engineering, School of Management and Engineering, Nanjing University, China. His current research interests include reinforcement learning, machine learning, and robotics.

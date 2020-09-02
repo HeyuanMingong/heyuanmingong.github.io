@@ -1,8 +1,0 @@
-@inproceedings{wang2019better, 
-title = {Better fine-tuning via instance weighting for text classification},
-author={Wang, Zhi; Bi, Wei; Wang, Yan; Liu, Xiaojiang}, 
-booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-vol={33},
-pages={7241--7248},
-year={2019}
-}
