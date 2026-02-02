@@ -48,6 +48,8 @@
                 
               <ul>
 
+                <li><p> [Jan. 26th, 2026] Three papers on <em>RL for LLM reasoning</em> and <em>in-context RL</em> were accepted at ICLR 2026.
+                </p></li>
                 <li><p> [Sept. 19th, 2025] Three papers on <em>in-context RL</em>, <em>language agents</em>, and <em>RL for LLM reasoning</em> were accepted at NeurIPS 2025.
                 </p></li>
                 <li><p> [May 1st, 2025] One paper on <em>hierarchical LLM agents</em> was accepted at ICML 2025.
@@ -78,7 +80,7 @@
                   Specifically, I work on how learning algorithms can scale RL agents to i) dynamic environments, ii) offline settings, and iii) multi-agent systems, allowing them to autonomously adapt to i) non-stationary task distributions, ii) non-interactive scenarios, and iii) cooperative or competitive task assignments, facilitating RL's deployment in real-world domains.
                 </p>
                 <p>
-                  Recently, I work on leveraging foundation models in decision-making problems, exploring ideas of language agents, RL for LLM reasoning, in-context RL, and embodied intelligence.
+                  Recently, I work on leveraging RL principles for language and vision tasks, as well as leveraging foundation models in decision-making problems. It is a great pleasure to explore ideas of RL fine-tuning for LLMs/generative models, RL for agentic test-time scaling, and vision-language-action models.
                 </p>
               </td>
             </tr>
@@ -131,9 +133,9 @@
           <span class="papertitle">Diversity-Incentivized Exploration for Versatile Reasoning</span>
           </a>
             <br>
-            Zican Hu, Shilin Zhang, Yafu Li, Jianhao Yan, Xuyang Hu, Leyang Cui, Xiaoye Qu, Chunlin Chen, Yu Cheng, <strong>Zhi Wang</strong>
+            Zican Hu, Shilin Zhang, Yafu Li, Jianhao Yan, Xuyang Hu, Leyang Cui, Xiaoye Qu, Chunlin Chen, Yu Cheng, <strong>Zhi Wang*</strong>
             <br>
-            <em>arXiv preprint, arXiv:2509.26209</em>, 2025
+            <em>International Conferene on Learning Representations (ICLR)</em>, 2026
             <br>
             <a href="paper/2025-arxiv-diver.pdf">paper</a> / <a href="https://github.com/NJU-RL/DIVER">code</a>
             <p></p>
@@ -178,7 +180,7 @@
             <br>
             Runzhe Zhan, Yafu Li, <strong>Zhi Wang</strong>, Xiaoye Qu, Dongrui Liu, Jing Shao, Derek F. Wong, Yu Cheng
             <br>
-            <em>arXiv preprint, arXiv:2510.02245</em>, 2025
+            <em>International Conferene on Learning Representations (ICLR)</em>, 2026
             <br>
             <a href="paper/2025-arxiv-exgrpo.pdf">paper</a> / <a href="https://github.com/ElliottYan/LUFFY/tree/main/ExGRPO">code</a>
             <p></p>
@@ -376,6 +378,65 @@
 
 
 
+    <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;">
+      <tbody>
+        <tr>
+          <td>
+            <h3>RL for Generative Modeling</h3>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+
+        <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='ever_image'>
+                <img src='images/drift.png' width=100%>
+              </div>
+              <img src='images/drift.png' width=100%>
+            </div>
+            <script type="text/javascript">
+              function ever_start() {
+                document.getElementById('ever_image').style.opacity = "1";
+              }
+
+              function ever_stop() {
+                document.getElementById('ever_image').style.opacity = "0";
+              }
+              ever_stop()
+            </script>
+          </td>
+
+          <td style="padding:8px;width:80%;vertical-align:middle">
+
+          <a href="https://arxiv.org/abs/2601.12401">
+          <span class="papertitle">Beyond the Dirac Delta: Mitigating Diversity Collapse in Reinforcement Fine-Tuning for Versatile Image Generation</span>
+          </a>
+            <br>
+            Jinmei Liu, Haoru Li, Zhenhong Sun, Chaofeng Chen, Yatao Bian, Bo Wang, Daoyi Dong, Chunlin Chen, <b>Zhi Wang</b>*
+            <br>
+            <em>arXiv preprint arXiv:2601.12401</em>, 2026
+            <br>
+            <a href="paper/2026-arxiv-drift.pdf">paper</a>
+            <p></p>
+            <p>
+            We systematically incentive output diversity throughout the on-policy RL fine-tuning process, reconciling strong task alignment with high generation diversity.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
 
 
     <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;">
@@ -383,6 +444,53 @@
         <tr>
           <td>
             <h3>In-context RL, Generalization in RL</h3>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+
+        <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='ever_image'>
+                <img src='images/sicql.png' width=100%>
+              </div>
+              <img src='images/sicql.png' width=100%>
+            </div>
+            <script type="text/javascript">
+              function ever_start() {
+                document.getElementById('ever_image').style.opacity = "1";
+              }
+
+              function ever_stop() {
+                document.getElementById('ever_image').style.opacity = "0";
+              }
+              ever_stop()
+            </script>
+          </td>
+
+          <td style="padding:8px;width:80%;vertical-align:middle">
+
+          <a href="https://arxiv.org/abs/2506.01299">
+            <span class="papertitle">Scalable In-Context Q-Learning</span>
+          </a>
+            <br>
+            Jinmei Liu, Fuhong Liu, Jianye Hao, Bo Wang, Huaxiong Li, Chunlin Chen, <strong>Zhi Wang</strong>*, 
+            <br>
+            <em>International Conferene on Learning Representations (ICLR)</em>, 2026
+            <br>
+            <a href="https://github.com/NJU-RL/SICQL">code</a>
+            /
+            <a href="paper/2025-arxiv-sicql.pdf">paper</a>
+            <p></p>
+            <p>
+            we propose SICQL, an innovative framework that harnesses dynamic programming and world modeling to steer ICRL toward efficient reward maximization and task generalization, while retaining the scalability and stability of supervised pretraining.
+            </p>
           </td>
         </tr>
       </tbody>
@@ -429,53 +537,6 @@
             <p></p>
             <p>
             We propose T2MIR (Token- and Task-wise MoE for In-context RL), an innovative framework that introduces architectural advances of mixture-of-experts (MoE) into transformer-based decision models.
-            </p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-
-
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-      <tbody>
-
-        <tr onmouseout="ever_stop()" onmouseover="ever_start()">
-          <td style="padding:16px;width:20%;vertical-align:middle">
-            <div class="one">
-              <div class="two" id='ever_image'>
-                <img src='images/sicql.png' width=100%>
-              </div>
-              <img src='images/sicql.png' width=100%>
-            </div>
-            <script type="text/javascript">
-              function ever_start() {
-                document.getElementById('ever_image').style.opacity = "1";
-              }
-
-              function ever_stop() {
-                document.getElementById('ever_image').style.opacity = "0";
-              }
-              ever_stop()
-            </script>
-          </td>
-
-          <td style="padding:8px;width:80%;vertical-align:middle">
-
-          <a href="https://arxiv.org/abs/2506.01299">
-            <span class="papertitle">Scalable In-Context Q-Learning</span>
-          </a>
-            <br>
-            Jinmei Liu, Fuhong Liu, Jianye Hao, Bo Wang, Huaxiong Li, Chunlin Chen, <strong>Zhi Wang</strong>*, 
-            <br>
-            <em>arXiv preprint, arXiv:2506.01299</em>, 2025
-            <br>
-            <a href="https://github.com/NJU-RL/SICQL">code</a>
-            /
-            <a href="paper/2025-arxiv-sicql.pdf">paper</a>
-            <p></p>
-            <p>
-            we propose SICQL, an innovative framework that harnesses dynamic programming and world modeling to steer ICRL toward efficient reward maximization and task generalization, while retaining the scalability and stability of supervised pretraining.
             </p>
           </td>
         </tr>
