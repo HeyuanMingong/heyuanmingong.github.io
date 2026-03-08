@@ -96,7 +96,7 @@
       <tbody>
         <tr>
           <td>
-            <h3>Language Agents, RL for LLM Reasoning</h3>
+            <h3>RL Finetuning of LLMs</h3>
           </td>
         </tr>
       </tbody>
@@ -383,7 +383,7 @@
       <tbody>
         <tr>
           <td>
-            <h3>RL for Generative Modeling</h3>
+            <h3>RL Finetuning of Image Generation</h3>
           </td>
         </tr>
       </tbody>
@@ -429,6 +429,64 @@
             <p></p>
             <p>
             We systematically incentive output diversity throughout the on-policy RL fine-tuning process, reconciling strong task alignment with high generation diversity.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+    <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;">
+      <tbody>
+        <tr>
+          <td>
+            <h3>RL for Agentic Test-Time Scaling</h3>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+
+        <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='ever_image'>
+                <img src='images/ma-rag.png' width=100%>
+              </div>
+              <img src='images/ma-rag.png' width=100%>
+            </div>
+            <script type="text/javascript">
+              function ever_start() {
+                document.getElementById('ever_image').style.opacity = "1";
+              }
+
+              function ever_stop() {
+                document.getElementById('ever_image').style.opacity = "0";
+              }
+              ever_stop()
+            </script>
+          </td>
+
+          <td style="padding:8px;width:80%;vertical-align:middle">
+
+          <a href="https://arxiv.org/abs/2603.03292">
+          <span class="papertitle">From Conflict to Consensus: Boosting Medical Reasoning via Multi-Round Agentic RAG</span>
+          </a>
+            <br>
+            Wenhao Wu, Zhentao Tang, Yafu Li, Shixiong Kai, Mingxuan Yuan, Zhenhong Sun, Chunlin Chen, <b>Zhi Wang</b>*
+            <br>
+            <em>arXiv preprint arXiv:2603.03292</em>, 2026
+            <br>
+            <a href="paper/2026-arxiv-ma-rag.pdf">paper</a>
+            <p></p>
+            <p>
+            We propose <b>MA-RAG</b> (<b>M</b>ulti-Round <b>A</b>gentic RAG), a framework that facilitates test-time scaling for complex medical reasoning by iteratively evolving both external evidence and internal reasoning history within an agentic refinement loop. 
             </p>
           </td>
         </tr>
