@@ -57,7 +57,7 @@ p { margin: 0 0 0.75rem; }
 .section-heading > div { min-width: fit-content; }
 .section-heading > p { max-width: 500px; margin: 0 0 0.15rem; color: var(--muted); font-size: 0.82rem; text-align: right; }
 .eyebrow { margin: 0 0 0.15rem; color: #7b8289; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
-.section h2, .teaching-card h2 { margin-bottom: 0; font-size: 1.48rem; }
+.section h2 { margin-bottom: 0; font-size: 1.48rem; }
 .heading-icon { margin-right: 0.45rem; font-size: 1.05em; }
 
 .research-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; }
@@ -92,6 +92,8 @@ p { margin: 0 0 0.75rem; }
 .publication-card:last-child { padding-bottom: 0; }
 .publication-media { display: block; overflow: hidden; background: #fff; border: 1px solid var(--line); border-radius: 3px; }
 .publication-media img { width: 100%; height: 128px; object-fit: contain; }
+.publication-placeholder { min-height: 128px; display: grid; place-items: center; background: linear-gradient(135deg, #f8fafc, #eef2f7); color: var(--muted); font-weight: 700; letter-spacing: .08em; text-decoration: none; }
+.publication-placeholder span { font-size: 1.45rem; }
 .publication-copy h3 { margin: 0.35rem 0; font-size: 1rem; }
 .publication-copy h3 a { color: var(--link); font-weight: 700; }
 .publication-copy > p { margin-bottom: 0.42rem; color: var(--muted); font-size: 0.8rem; }
@@ -104,12 +106,11 @@ p { margin: 0 0 0.75rem; }
 .button-primary { color: #fff; background: #4a535b; border-color: #4a535b; }
 .button-primary:hover { color: #fff; background: #30373d; }
 
-.service-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; }
-.service-grid article { padding: 10px 16px; background: transparent; border: 0; border-radius: 0; }
-.service-grid article:not(:last-child) { border-right: 1px solid #f0f1f2; }
-.service-label { margin-bottom: 0.5rem; color: #7d848b; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
-.service-grid h3 { margin-bottom: 0.35rem; font-size: 0.95rem; }
-.service-meta { margin: 0; color: var(--muted); font-size: 0.72rem; }
+.service-list { display: grid; gap: 12px; }
+.service-list article { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 20px; padding: 3px 0; align-items: start; }
+.service-label { margin: 0; color: #7d848b; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+.service-list h3 { margin-bottom: 0.35rem; font-size: 0.95rem; }
+.service-meta { margin: 0; display: flex; flex-wrap: wrap; gap: 5px 14px; color: var(--muted); font-size: 0.72rem; }
 
 .teaching-card { padding: 10px 0; display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 24px; align-items: center; background: transparent; border: 0; border-radius: 0; }
 .teaching-card > div:first-child > p:last-child { margin-bottom: 0; color: var(--muted); font-size: 0.82rem; }
@@ -153,8 +154,8 @@ p { margin: 0 0 0.75rem; }
   .profile-photo { width: 145px; height: 145px; }
   .publication-card { grid-template-columns: 175px minmax(0, 1fr); gap: 18px; }
   .publication-media img { height: 110px; }
-  .service-grid { grid-template-columns: 1fr; }
-  .service-grid article:not(:last-child) { border-right: 0; border-bottom: 1px solid #f0f1f2; }
+  .publication-placeholder { min-height: 110px; }
+  .service-list article { grid-template-columns: 130px minmax(0, 1fr); gap: 14px; }
 }
 
 @media (max-width: 720px) {
@@ -178,8 +179,10 @@ p { margin: 0 0 0.75rem; }
   .research-card:nth-child(-n+2) { border-bottom: 0; }
   .research-card:not(:last-child) { border-bottom: 1px solid #f0f1f2; }
   .news-timeline li { grid-template-columns: 82px 1fr; gap: 10px; }
+  .service-list article { grid-template-columns: 1fr; gap: 5px; }
   .publication-card { grid-template-columns: 150px minmax(0, 1fr); gap: 14px; }
   .publication-media img { height: 95px; }
+  .publication-placeholder { min-height: 95px; }
   .teaching-card { grid-template-columns: 1fr; gap: 12px; }
   .course-links { padding-left: 0; border-left: 0; }
   .footer-inner { grid-template-columns: 1fr; }
@@ -191,6 +194,7 @@ p { margin: 0 0 0.75rem; }
   .publication-card { grid-template-columns: 1fr; }
   .publication-media { width: 100%; }
   .publication-media img { height: auto; max-height: 180px; }
+  .publication-placeholder { min-height: 120px; }
   .course-links a { grid-template-columns: 1fr auto; }
   .course-links span:first-child { grid-column: 1 / -1; }
 }

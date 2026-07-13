@@ -106,15 +106,16 @@
           </div>
         </div>
         <ol class="news-timeline">
+          <li><time datetime="2026-07">Jul 2026</time><div><span class="venue-tag">arXiv 2026</span><p>Two new preprints are now available: <a href="#pub-braid">BRAID</a> (RL for unified multi-modal models) and <a href="#pub-sva">SVA</a> (Test-time VLAs).</p></div></li>
           <li><time datetime="2026-05">May 2026</time><div><span class="venue-tag">ICML 2026</span><p>Two papers on RL for LLM reasoning and agentic RAG were accepted, including <strong>one Oral paper</strong>.</p></div></li>
           <li><time datetime="2026-01">Jan 2026</time><div><span class="venue-tag">ICLR 2026</span><p>Three papers on RL for LLM reasoning and in-context RL were accepted.</p></div></li>
           <li><time datetime="2025-09">Sep 2025</time><div><span class="venue-tag">NeurIPS 2025</span><p>Three papers on in-context RL, language agents, and RL for LLM reasoning were accepted.</p></div></li>
           <li><time datetime="2025-05">May 2025</time><div><span class="venue-tag">ICML 2025</span><p>One paper on hierarchical LLM agents was accepted.</p></div></li>
-          <li><time datetime="2025-01">Jan 2025</time><div><span class="venue-tag">TPAMI</span><p>One paper on interpretable multi-agent reinforcement learning was accepted.</p></div></li>
         </ol>
         <details class="news-archive">
           <summary>Earlier news</summary>
           <ol class="news-timeline compact">
+            <li><time datetime="2025-01">Jan 2025</time><div><span class="venue-tag">TPAMI</span><p>One paper on interpretable multi-agent reinforcement learning was accepted.</p></div></li>
             <li><time datetime="2024-09">Sep 2024</time><div><span class="venue-tag">NeurIPS 2024</span><p>One paper on generalist RL agents was accepted.</p></div></li>
             <li><time datetime="2024-01">Jan 2024</time><div><span class="venue-tag">ICLR 2024</span><p>One paper on efficient multi-agent RL coordination was accepted.</p></div></li>
           </ol>
@@ -131,6 +132,10 @@
           <section class="publication-group" aria-labelledby="pub-group-agents">
             <h3 id="pub-group-agents" class="publication-group-title"><span aria-hidden="true">🤖</span>Foundation-Model Decision Agents</h3>
             <div class="publication-list">
+              <article id="pub-sva" class="publication-card">
+                <a class="publication-media" href="https://arxiv.org/abs/2607.03751" aria-label="Read Look Before You Leap on arXiv"><img src="images/sva.png" alt="SVA action evaluation for frozen VLA models" loading="lazy" decoding="async"></a>
+                <div class="publication-copy"><span class="venue-tag">arXiv 2026</span><h3><a href="https://arxiv.org/abs/2607.03751">Look Before You Leap: Distilling Tree Search into Action Evaluation for Frozen VLA Models</a></h3><p class="authors">Xinyi Xie, Zican Hu, Zhanyu Liu, Yicheng Dong, Wenhao Wu, Zhenhong Sun, Haoran Li, Chunlin Chen, <strong>Zhi Wang*</strong>, Pichao Wang</p><p>SVA distills tree-search trajectories into a lightweight action evaluator, improving frozen VLA policies through test-time action selection.</p><div class="publication-links"><a href="paper/2026-arxiv-sva.pdf">Paper</a></div></div>
+              </article>
               <article id="pub-glider" class="publication-card">
                 <a class="publication-media" href="https://arxiv.org/abs/2505.19761" aria-label="Read GLIDER on arXiv"><img src="images/glider.png" alt="GLIDER foundation-model decision agent framework" loading="lazy" decoding="async"></a>
                 <div class="publication-copy"><span class="venue-tag">ICML 2025</span><h3><a href="https://arxiv.org/abs/2505.19761">Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning</a></h3><p class="authors">Zican Hu, Wei Liu, Xiaoye Qu, Xiangyu Yue, Chunlin Chen, <strong>Zhi Wang*</strong>, Yu Cheng</p><p>GLIDER grounds language models as efficient decision-making agents through offline hierarchical reinforcement learning.</p><div class="publication-links"><a href="paper/2025-ICML-GLIDER.pdf">Paper</a><a href="https://github.com/NJU-RL/GLIDER">Code</a></div></div>
@@ -145,13 +150,13 @@
                 <a class="publication-media" href="https://arxiv.org/abs/2602.08498" aria-label="Read Characterizing, Evaluating, and Optimizing Complex Reasoning on arXiv"><img src="images/trm.png" alt="Characterizing, Evaluating, and Optimizing Complex Reasoning overview" loading="lazy" decoding="async"></a>
                 <div class="publication-copy"><span class="venue-tag">ICML 2026 · Oral</span><h3><a href="https://arxiv.org/abs/2602.08498">Characterizing, Evaluating, and Optimizing Complex Reasoning</a></h3><p class="authors">Haoran Zhang, Yafu Li, <strong>Zhi Wang</strong>, Zhilin Wang, Shunkai Zhang, Xiaoye Qu, Yu Cheng</p><p>A systematic study of how complex reasoning can be characterized, evaluated, and optimized.</p><div class="publication-links"><a href="paper/2026-ICML-TRM.pdf">Paper</a><a href="https://github.com/Simplified-Reasoning/TRM">Code</a></div></div>
               </article>
+              <article id="pub-braid" class="publication-card">
+                <a class="publication-media" href="https://arxiv.org/abs/2607.03748" aria-label="Read BRAID on arXiv"><img src="images/braid.png" alt="BRAID unified decision process for interleaved multi-modal reasoning" loading="lazy" decoding="async"></a>
+                <div class="publication-copy"><span class="venue-tag">arXiv 2026</span><h3><a href="https://arxiv.org/abs/2607.03748">Bridging Interleaved Multi-Modal Reasoning as a Unified Decision Process</a></h3><p class="authors">Zican Hu, Xuyang Hu, Yiming Liu, Zuwei Long, Wei Liu, Yunzhuo Hao, Jiawei Gu, Linjie Li, Yu Cheng, Zhenhong Sun, Weibo Gu, Xing Sun, <strong>Zhi Wang*</strong></p><p>BRAID formulates interleaved text-image reasoning as a unified decision process, enabling reinforcement learning across textual and visual generation steps.</p><div class="publication-links"><a href="paper/2026-arxiv-braid.pdf">Paper</a></div></div>
+              </article>
               <article id="pub-diver" class="publication-card">
                 <a class="publication-media" href="https://www.arxiv.org/abs/2509.26209" aria-label="Read DIVER on arXiv"><img src="images/diver.png" alt="DIVER method overview" loading="lazy" decoding="async"></a>
                 <div class="publication-copy"><span class="venue-tag">ICLR 2026</span><h3><a href="https://www.arxiv.org/abs/2509.26209">Diversity-Incentivized Exploration for Versatile Reasoning</a></h3><p class="authors">Zican Hu, Shilin Zhang, Yafu Li, Jianhao Yan, Xuyang Hu, Leyang Cui, Xiaoye Qu, Chunlin Chen, Yu Cheng, <strong>Zhi Wang*</strong></p><p>Global diversity incentives promote deep exploration for reasoning in a semantically structured space.</p><div class="publication-links"><a href="paper/2026-ICLR-DIVER.pdf">Paper</a><a href="https://github.com/NJU-RL/DIVER">Code</a></div></div>
-              </article>
-              <article id="pub-exgrpo" class="publication-card">
-                <a class="publication-media" href="https://arxiv.org/abs/2510.02245" aria-label="Read ExGRPO on arXiv"><img src="images/exgrpo.png" alt="ExGRPO method overview" loading="lazy" decoding="async"></a>
-                <div class="publication-copy"><span class="venue-tag">ICLR 2026</span><h3><a href="https://arxiv.org/abs/2510.02245">ExGRPO: Learning to Reason from Experience</a></h3><p class="authors">Runzhe Zhan, Yafu Li, <strong>Zhi Wang</strong>, Xiaoye Qu, Dongrui Liu, Jing Shao, Derek F. Wong, Yu Cheng</p><p>Valuable reasoning experiences are prioritized using rollout correctness and entropy to balance exploration and exploitation.</p><div class="publication-links"><a href="paper/2026-ICLR-ExGRPO.pdf">Paper</a><a href="https://github.com/ElliottYan/LUFFY/tree/main/ExGRPO">Code</a></div></div>
               </article>
               <article id="pub-entropy" class="publication-card">
                 <a class="publication-media" href="https://arxiv.org/abs/2505.22617" aria-label="Read the entropy mechanism paper on arXiv"><img src="images/entropy.png" alt="Entropy dynamics in reinforcement learning for reasoning models" loading="lazy" decoding="async"></a>
@@ -170,6 +175,10 @@
               <article id="pub-marag" class="publication-card">
                 <a class="publication-media" href="https://arxiv.org/abs/2603.03292" aria-label="Read MA-RAG on arXiv"><img src="images/ma-rag.png" alt="Multi-round agentic RAG framework" loading="lazy" decoding="async"></a>
                 <div class="publication-copy"><span class="venue-tag">ICML 2026</span><h3><a href="https://arxiv.org/abs/2603.03292">From Conflict to Consensus: Boosting Medical Reasoning via Multi-Round Agentic RAG</a></h3><p class="authors">Wenhao Wu, Zhentao Tang, Yafu Li, Shixiong Kai, Mingxuan Yuan, Zhenhong Sun, Chunlin Chen, <strong>Zhi Wang*</strong></p><p>MA-RAG enables self-improving medical reasoning by iteratively refining external evidence and internal reasoning history.</p><div class="publication-links"><a href="paper/2026-ICML-MA-RAG.pdf">Paper</a></div></div>
+              </article>
+              <article id="pub-exgrpo" class="publication-card">
+                <a class="publication-media" href="https://arxiv.org/abs/2510.02245" aria-label="Read ExGRPO on arXiv"><img src="images/exgrpo.png" alt="ExGRPO method overview" loading="lazy" decoding="async"></a>
+                <div class="publication-copy"><span class="venue-tag">ICLR 2026</span><h3><a href="https://arxiv.org/abs/2510.02245">ExGRPO: Learning to Reason from Experience</a></h3><p class="authors">Runzhe Zhan, Yafu Li, <strong>Zhi Wang</strong>, Xiaoye Qu, Dongrui Liu, Jing Shao, Derek F. Wong, Yu Cheng</p><p>Valuable reasoning experiences are prioritized using rollout correctness and entropy to balance exploration and exploitation.</p><div class="publication-links"><a href="paper/2026-ICLR-ExGRPO.pdf">Paper</a><a href="https://github.com/ElliottYan/LUFFY/tree/main/ExGRPO">Code</a></div></div>
               </article>
             </div>
           </section>
@@ -197,17 +206,19 @@
 
       <section id="service" class="section page-shell" aria-labelledby="service-title">
         <div class="section-heading"><div><h2 id="service-title"><span class="heading-icon" aria-hidden="true">💬</span>Academic Service</h2></div></div>
-        <div class="service-grid">
+        <div class="service-list">
           <article><p class="service-label">Program Chair</p><h3>IEEE International Conference on Cybernetics 2026</h3></article>
+          <article><p class="service-label">Founding Chair</p><h3>IEEE SMC Society Suzhou Chapter</h3></article>
           <article><p class="service-label">Area Chair</p><h3>NeurIPS &amp; AAMAS</h3></article>
           <article><p class="service-label">Guest Editor</p><h3>IEEE Transactions on Cybernetics</h3></article>
-          <article><p class="service-label">Associate Editor</p><h3>IEEE SMC &amp; IEEE ICNSC</h3><p class="service-meta">IEEE SMC 2021–2023, 2026 · IEEE ICNSC 2020</p></article>
+          <article><p class="service-label">Associate Editor</p><h3>IEEE SMC 2021–2023, 2026 · IEEE ICNSC 2020</h3></article>
         </div>
       </section>
 
       <section id="teaching" class="section page-shell" aria-labelledby="teaching-title">
+        <div class="section-heading"><div><h2 id="teaching-title"><span class="heading-icon" aria-hidden="true">🎓</span>Teaching</h2></div></div>
         <div class="teaching-card">
-          <div><h2 id="teaching-title">Teaching</h2><p>Course information, announcements, and lecture materials for students at Nanjing University.</p></div>
+          <div><p>Course information, announcements, and lecture materials for students at Nanjing University.</p></div>
           <div class="course-links"><a href="teaching.html"><span>Postgraduate</span><strong>Deep Reinforcement Learning</strong><span aria-hidden="true">→</span></a><a href="teaching-dc.html"><span>Undergraduate</span><strong>Digital Circuits</strong><span aria-hidden="true">→</span></a></div>
         </div>
       </section>
