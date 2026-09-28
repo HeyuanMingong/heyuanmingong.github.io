@@ -50,6 +50,12 @@ p { margin: 0 0 0.75rem; }
 .content-column { min-width: 0; }
 .about-section { padding: 0.5rem 0 0.7rem; font-size: 1rem; }
 .about-section p:last-child { margin-bottom: 0; }
+.recruitment-notice { margin-top: 14px; padding: 12px 15px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; align-items: start; background: var(--soft); border: 1px solid var(--line); border-radius: 5px; }
+.recruitment-icon { line-height: 1.45; }
+.recruitment-notice p { margin: 0; }
+.recruitment-cn { font-size: 0.9rem; }
+.recruitment-en { margin-top: 0.15rem !important; color: var(--muted); font-size: 0.78rem; }
+.recruitment-en strong { color: var(--ink); }
 
 .section { padding-top: 30px; }
 .content-column .page-shell { width: 100%; }
